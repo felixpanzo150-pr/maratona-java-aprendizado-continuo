@@ -19,11 +19,21 @@ public class EstudanteTest01 {
         estudante02.idade = 13;
         estudante02.sexo = 'M';
 
-        impressora.imprime(estudante01);
+
 
         System.out.println(estudante01.nome);
         System.out.println(estudante01.idade);
         System.out.println(estudante01.sexo);
+
+        impressora.imprime(estudante01);
+
+        impressora.imprime(estudante02);
+
+        System.out.println("#########################");
+
+        impressora.imprime(estudante01);
+
+        impressora.imprime(estudante02);
 
    }
 }
